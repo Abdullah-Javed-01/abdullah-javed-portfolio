@@ -78,7 +78,7 @@ The approved portfolio has its own [GitHub repository](https://github.com/Abdull
 
 The portfolio is deployed to production in the Vercel project `abdullah-javed-portfolio`, under `workabdullahaj-9596`. The initial production build completed successfully on September 13, 2026, using the approved source from commit `642398e`. Build settings are **Next.js**, `npm ci`, and `npm run build`; no backend setup is required.
 
-**Automatic Git deployments are pending permission.** The initial deployment used the source files directly. To connect future pushes, open the existing Vercel project’s **Settings → Git**, install/authorize Vercel’s GitHub app for **only `Abdullah-Javed-01/abdullah-javed-portfolio`**, and connect that repository with `main` as the production branch. Until this connection is completed, pushing to GitHub does not automatically update the live site. See the [local update guide](docs/LOCAL-UPDATE-GUIDE.md).
+**Automatic Git deployments are connected.** Vercel’s GitHub app is installed for **only `Abdullah-Javed-01/abdullah-javed-portfolio`**, and this repository is connected to the existing Vercel project. The production environment tracks `main`: push an update to that branch, wait for Vercel to show **Ready**, then check the live site. Other branches use preview deployments. See the [local update guide](docs/LOCAL-UPDATE-GUIDE.md).
 
 Vercel’s `VERCEL_PROJECT_PRODUCTION_URL` supplies the confirmed production origin for the canonical URL and sitemap. The live site is indexable; unconfigured local reviews and Vercel preview environments remain `noindex`. Set `NEXT_PUBLIC_SITE_URL` only if you later configure a different production domain.
 

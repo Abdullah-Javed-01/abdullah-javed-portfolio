@@ -205,15 +205,15 @@ npm ci
 npm run dev
 ```
 
-The initial Vercel deployment used the approved source files directly. **GitHub-to-Vercel automatic deployments are not connected yet; repository-access approval is pending.** In the existing Vercel project `abdullah-javed-portfolio`, go to **Settings → Git**, authorize the Vercel GitHub app for **only this portfolio repository**, and connect it. Use `main` as the production branch, the Next.js framework, `npm ci` for installation, and `npm run build` for the build. Do not create a duplicate Vercel project.
+**GitHub-to-Vercel automatic deployments are connected.** Vercel’s GitHub app is installed for **only this portfolio repository**, and the repository is linked to the existing Vercel project `abdullah-javed-portfolio`. Its production environment tracks `main`; other branches use preview deployments. The build settings are Next.js, `npm ci` for installation, and `npm run build` for the build. Use the existing project for future updates.
 
-After that connection is complete, the normal update flow is:
+The normal update flow is:
 
 1. Edit `data/portfolio.ts` and any corresponding assets.
 2. Run `npm run check` and `npm run build`, then review the changed behavior locally.
 3. Review the changed files in VS Code Source Control, commit with a meaningful message, and push to `main`.
 4. Wait for the Vercel production deployment to show **Ready**, then open the live URL and check the changed content.
 
-Until the Git connection is completed, GitHub pushes save the source only; they do not update the live site automatically. The other project repositories remain separate.
+If a push does not create a deployment, check the existing Vercel project’s **Settings → Git** connection and **Settings → Environments → Production** branch tracking. Inspect the build logs if a deployment fails. The other project repositories remain separate.
 
 Leave production-domain configuration unset during local review. Vercel supplies the live production origin automatically, while unconfigured local reviews and Vercel preview deployments are `noindex`. `.gitignore` excludes dependencies, build output, local review output, environment files, and temporary platform directories. Never put credentials in `data/portfolio.ts` or anything under `public/`.

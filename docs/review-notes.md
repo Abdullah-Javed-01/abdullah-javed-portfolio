@@ -9,7 +9,7 @@ This records the completed checks before publication. Abdullah subsequently appr
 - Deployed the same approved source to [the live portfolio](https://abdullah-javed-portfolio-gamma.vercel.app/). Vercel confirmed **Ready**, **Production / Current**, and a successful 24-second build for deployment `dpl_HASxc6YikNkwHmADnzAc6LLxvKP2`.
 - Checked the actual production page: correct title and canonical origin, `index, follow`, 10 featured and 14 archive projects, shared category filtering, archive dialog opening and Escape closure, dark theme, successful project-image loading, and no document overflow at the inspected desktop size.
 - The inspected production console showed no application errors; browser-extension metadata warnings were excluded.
-- The first deployment used direct source upload. Automatic Git deployments remain pending approval to give Vercel access to only the new portfolio repository. GitHub pushes will not update the site until that connection is completed.
+- The first deployment used direct source upload. After Abdullah approved repository access, Vercel’s GitHub app was installed for only `Abdullah-Javed-01/abdullah-javed-portfolio`, and the repository connection was confirmed in Vercel. The production environment tracks `main`, with `abdullah-javed-portfolio-gamma.vercel.app` as its primary domain; other branches use preview deployments.
 
 The earlier review below is preserved as a record of the pre-publication state. Later documentation updates record the live URL and maintenance workflow without changing application behavior.
 
