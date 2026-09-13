@@ -2,6 +2,8 @@
 
 Abdullah’s professional technical portfolio across AI/ML, backend development, data science, analytics, and robotics. Built with Next.js App Router, TypeScript, React, Tailwind CSS, and Lucide React.
 
+**Live portfolio:** [abdullah-javed-portfolio-gamma.vercel.app](https://abdullah-javed-portfolio-gamma.vercel.app/)
+
 ![Desktop portfolio preview](docs/portfolio-preview.jpg)
 
 The approved AJ navy/cyan design includes **10 Featured Projects** and a compact **14-project archive**. One category filter controls both groups. Project dialogs provide the technical approach, evaluation context, available repository links, and real visuals. Fifteen projects include repository screenshots or result graphics; others use category graphics.
@@ -74,8 +76,10 @@ The generated preview is ignored by Git. It is a review artifact; the Next.js pr
 
 The approved portfolio has its own [GitHub repository](https://github.com/Abdullah-Javed-01/abdullah-javed-portfolio). Existing project repositories were inspected read-only and remain unchanged.
 
-Use **Vercel → Add New Project → Import Git Repository → abdullah-javed-portfolio** to connect this repository. Vercel can use the normal Next.js build settings. No backend setup is required.
+The portfolio is deployed to production in the Vercel project `abdullah-javed-portfolio`, under `workabdullahaj-9596`. The initial production build completed successfully on September 13, 2026, using the approved source from commit `642398e`. Build settings are **Next.js**, `npm ci`, and `npm run build`; no backend setup is required.
 
-A real production origin can later be supplied through `NEXT_PUBLIC_SITE_URL` or Vercel’s `VERCEL_PROJECT_PRODUCTION_URL`. That enables the canonical URL and sitemap. The current unconfigured local review and Vercel preview environments remain `noindex`; no production domain is assumed.
+**Automatic Git deployments are pending permission.** The initial deployment used the source files directly. To connect future pushes, open the existing Vercel project’s **Settings → Git**, install/authorize Vercel’s GitHub app for **only `Abdullah-Javed-01/abdullah-javed-portfolio`**, and connect that repository with `main` as the production branch. Until this connection is completed, pushing to GitHub does not automatically update the live site. See the [local update guide](docs/LOCAL-UPDATE-GUIDE.md).
+
+Vercel’s `VERCEL_PROJECT_PRODUCTION_URL` supplies the confirmed production origin for the canonical URL and sitemap. The live site is indexable; unconfigured local reviews and Vercel preview environments remain `noindex`. Set `NEXT_PUBLIC_SITE_URL` only if you later configure a different production domain.
 
 Semantic sections, visible keyboard focus, native modal behavior, Escape dismissal, reduced-motion styles, descriptive image alt text, and a skip link are preserved. See [review notes](docs/review-notes.md) for the actual browser checks and practical limits.

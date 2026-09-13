@@ -2,6 +2,17 @@
 
 This records the completed checks before publication. Abdullah subsequently approved this version, and a separate portfolio repository was created. See README.md for the current GitHub and deployment workflow.
 
+## Publication check — September 13, 2026
+
+- Published the approved source in the separate [portfolio repository](https://github.com/Abdullah-Javed-01/abdullah-javed-portfolio), commit `642398eba339f54a687743e0ca87a62ecfc08b4d`.
+- Verified all 60 source files against the local Git tree `32ebf07d4cc3b3c153924df619a6d6c62f3300cd` before publishing the branch.
+- Deployed the same approved source to [the live portfolio](https://abdullah-javed-portfolio-gamma.vercel.app/). Vercel confirmed **Ready**, **Production / Current**, and a successful 24-second build for deployment `dpl_HASxc6YikNkwHmADnzAc6LLxvKP2`.
+- Checked the actual production page: correct title and canonical origin, `index, follow`, 10 featured and 14 archive projects, shared category filtering, archive dialog opening and Escape closure, dark theme, successful project-image loading, and no document overflow at the inspected desktop size.
+- The inspected production console showed no application errors; browser-extension metadata warnings were excluded.
+- The first deployment used direct source upload. Automatic Git deployments remain pending approval to give Vercel access to only the new portfolio repository. GitHub pushes will not update the site until that connection is completed.
+
+The earlier review below is preserved as a record of the pre-publication state. Later documentation updates record the live URL and maintenance workflow without changing application behavior.
+
 ## Pre-publication review record
 
 The approved design is preserved. The portfolio now presents **10 Featured Projects + 14 archive projects = 24 total projects**, supported by one typed project array and shared category controls. Fifteen projects have genuine screenshots or evaluation graphics. The README, repository audit, evidence references, asset provenance, and practical local update guide are included.

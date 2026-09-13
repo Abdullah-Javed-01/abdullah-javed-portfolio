@@ -194,6 +194,26 @@ In your browser’s responsive device tools, inspect approximately **1440, 1280,
 
 ## GitHub and Vercel workflow
 
-The approved source has a separate repository at https://github.com/Abdullah-Javed-01/abdullah-javed-portfolio. For a fresh local working copy, clone that repository in VS Code, then follow the install and development commands above. Vercel can import this repository using its normal Next.js settings. Your other project repositories remain separate.
+The source is at [Abdullah-Javed-01/abdullah-javed-portfolio](https://github.com/Abdullah-Javed-01/abdullah-javed-portfolio), and the live site is [abdullah-javed-portfolio-gamma.vercel.app](https://abdullah-javed-portfolio-gamma.vercel.app/).
 
-Leave production-domain configuration unset during local review. The current unconfigured preview is `noindex`, and no production domain is invented. `.gitignore` excludes dependencies, build output, local review output, environment files, and temporary platform directories. Never put credentials in `data/portfolio.ts` or anything under `public/`.
+For a fresh local working copy, use **VS Code → Source Control → Clone Repository**, paste the GitHub URL above, and open the cloned folder. Alternatively:
+
+```bash
+git clone https://github.com/Abdullah-Javed-01/abdullah-javed-portfolio.git
+cd abdullah-javed-portfolio
+npm ci
+npm run dev
+```
+
+The initial Vercel deployment used the approved source files directly. **GitHub-to-Vercel automatic deployments are not connected yet; repository-access approval is pending.** In the existing Vercel project `abdullah-javed-portfolio`, go to **Settings → Git**, authorize the Vercel GitHub app for **only this portfolio repository**, and connect it. Use `main` as the production branch, the Next.js framework, `npm ci` for installation, and `npm run build` for the build. Do not create a duplicate Vercel project.
+
+After that connection is complete, the normal update flow is:
+
+1. Edit `data/portfolio.ts` and any corresponding assets.
+2. Run `npm run check` and `npm run build`, then review the changed behavior locally.
+3. Review the changed files in VS Code Source Control, commit with a meaningful message, and push to `main`.
+4. Wait for the Vercel production deployment to show **Ready**, then open the live URL and check the changed content.
+
+Until the Git connection is completed, GitHub pushes save the source only; they do not update the live site automatically. The other project repositories remain separate.
+
+Leave production-domain configuration unset during local review. Vercel supplies the live production origin automatically, while unconfigured local reviews and Vercel preview deployments are `noindex`. `.gitignore` excludes dependencies, build output, local review output, environment files, and temporary platform directories. Never put credentials in `data/portfolio.ts` or anything under `public/`.
