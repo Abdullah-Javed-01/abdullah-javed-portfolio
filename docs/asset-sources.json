@@ -1,0 +1,122 @@
+[
+  {
+    "project": "knowledgevault",
+    "src": "/projects/knowledgevault.webp",
+    "source_url": "https://github.com/Abdullah-Javed-01/KnowledgeVault-InnoViast/blob/main/screenshots/02_grounded_answer_sources.png",
+    "description": "Real KnowledgeVault conversation UI showing a grounded answer and expanded document source reference.",
+    "blob_sha": "0a9051596a48a2f8e047dd564951ff052de8533e",
+    "treatment": "Original repository visual; raster assets optimized as WebP and SVG charts retained."
+  },
+  {
+    "project": "scamsleuth",
+    "src": "/projects/scamsleuth.webp",
+    "source_url": "https://github.com/Abdullah-Javed-01/ScamSleuth/blob/main/reports/figures/confusion_matrix.png",
+    "description": "Final-test confusion matrix graphic with Safe and Scam classes.",
+    "blob_sha": "40cd42342d0cb607860bcca9f9c62bc7787a67bd",
+    "treatment": "Original repository visual; raster assets optimized as WebP and SVG charts retained."
+  },
+  {
+    "project": "cv-edge",
+    "src": "/projects/cv-edge.svg",
+    "source_url": "https://github.com/Abdullah-Javed-01/KHIZEX-Week5-CV-Edge-Deployment/blob/main/results/accuracy_vs_size.svg",
+    "description": "Original SVG scatter chart comparing accuracy and model size for baseline, pruned, and quantized model variants.",
+    "blob_sha": "53f7c0e6c68b54bb628983e0328c9b60c685102a",
+    "treatment": "Original repository visual; raster assets optimized as WebP and SVG charts retained."
+  },
+  {
+    "project": "document-extraction",
+    "src": "/projects/document-extraction.svg",
+    "source_url": "https://github.com/Abdullah-Javed-01/KHIZEX-Week6-Document-Extraction/blob/main/results/ocr_confidence_plot.svg",
+    "description": "Original SVG bar chart comparing raw and processed OCR confidence across C01–C08.",
+    "blob_sha": "97b679abc652a78bcb94e105b87b29b18f97019f",
+    "treatment": "Original repository visual; raster assets optimized as WebP and SVG charts retained."
+  },
+  {
+    "project": "customer-churn",
+    "src": "/projects/customer-churn.webp",
+    "source_url": "https://github.com/Abdullah-Javed-01/customer-churn-prediction-dashboard/blob/main/outputs/charts/feature_importance.png",
+    "description": "Horizontal bar chart of the churn model's top ten feature importances.",
+    "blob_sha": "2f12466c619cca53418b13bea44da0c730f1d1aa",
+    "treatment": "Original repository visual; raster assets optimized as WebP and SVG charts retained."
+  },
+  {
+    "project": "public-transport",
+    "src": "/projects/public-transport.webp",
+    "source_url": "https://github.com/Abdullah-Javed-01/Smart-Public-Transport-Analytics-Dashboard/blob/main/dashboard/Page%201.png",
+    "description": "Real Power BI executive dashboard showing transport KPIs, revenue by route, passenger trend, delays, and trip status.",
+    "blob_sha": "13fb9559093b9def1ed64e8aaf2dd2250fc4ebc7",
+    "treatment": "Original repository visual; raster assets optimized as WebP and SVG charts retained."
+  },
+  {
+    "project": "applywise",
+    "src": "/projects/applywise.webp",
+    "source_url": "https://github.com/Abdullah-Javed-01/ApplyWise-InnoViast/blob/main/docs/screenshots/testing/TC01%20%E2%80%94%20AI%20%26%20Machine%20Learning%20Engineer.png",
+    "description": "ApplyWise interface comparing résumé evidence with job requirements.",
+    "blob_sha": "92ced63ce5aa97722d86dae00f938d62d6d22b4e",
+    "treatment": "Original screenshot or result graphic, resized and converted to WebP without content changes."
+  },
+  {
+    "project": "promptforge",
+    "src": "/projects/promptforge.webp",
+    "source_url": "https://github.com/Abdullah-Javed-01/PromptForge-InnoViast/blob/main/PromptForge-InnoViast/screenshots/Prompt%20Generated.png",
+    "description": "PromptForge showing a generated structured prompt and validation feedback.",
+    "blob_sha": "d5e2f1dcaf0c292dc3ca7ecd83c2bc1b61d1d8e8",
+    "treatment": "Original screenshot or result graphic, resized and converted to WebP without content changes."
+  },
+  {
+    "project": "student-helpdesk",
+    "src": "/projects/student-helpdesk.webp",
+    "source_url": "https://github.com/Abdullah-Javed-01/StudentHelpdeskBot-InnoViast/blob/main/Screenshots/Dashboard.png",
+    "description": "Student Helpdesk Bot chat interface with quick student-services questions.",
+    "blob_sha": "5ab693a208f09831c915c3cddc51d0dacba37223",
+    "treatment": "Original screenshot or result graphic, resized and converted to WebP without content changes."
+  },
+  {
+    "project": "content-studio",
+    "src": "/projects/content-studio.webp",
+    "source_url": "https://github.com/Abdullah-Javed-01/ai-content-generation-studio/blob/main/screenshots/Email.png",
+    "description": "AI Content Generation Studio displaying an email draft and generation controls.",
+    "blob_sha": "94fcc5bb85f97d327bf419ef5c368583daeca97b",
+    "treatment": "Original screenshot or result graphic, resized and converted to WebP without content changes."
+  },
+  {
+    "project": "datapulse",
+    "src": "/projects/datapulse.webp",
+    "source_url": "https://github.com/Abdullah-Javed-01/KHIZEX-Week2-DataPulse/blob/main/reports/figures/imputation/CO_GT_KNN_comparison.png",
+    "description": "Observed carbon monoxide distribution compared with KNN-imputed values.",
+    "blob_sha": "44aa937c2f821c8235a8e7585323c190fb3edf43",
+    "treatment": "Original screenshot or result graphic, resized and converted to WebP without content changes."
+  },
+  {
+    "project": "churnsignal",
+    "src": "/projects/churnsignal.webp",
+    "source_url": "https://github.com/Abdullah-Javed-01/KHIZEX-Week3-ChurnSignal/blob/main/reports/charts/feature_importance.png",
+    "description": "Weighted Logistic Regression feature-importance chart from ChurnSignal.",
+    "blob_sha": "921aabe1b1e3b09d675a708e3debce31e91fc6fd",
+    "treatment": "Original screenshot or result graphic, resized and converted to WebP without content changes."
+  },
+  {
+    "project": "retail-sales",
+    "src": "/projects/retail-sales.webp",
+    "source_url": "https://github.com/Abdullah-Javed-01/retail-store-sales-analysis/blob/main/screenshots_video/Executive%20Overview%201.png",
+    "description": "Retail dashboard executive overview with analyzed revenue and 1,489 orders.",
+    "blob_sha": "97bb8aeca71be8c7d94f3447edbfc6108ba82a18",
+    "treatment": "Original screenshot or result graphic, resized and converted to WebP without content changes."
+  },
+  {
+    "project": "spam-message-detector",
+    "src": "/projects/spam-message-detector.webp",
+    "source_url": "https://github.com/Abdullah-Javed-01/Spam-Message-Detector/blob/main/outputs/model_comparison.png",
+    "description": "Naive Bayes and Logistic Regression comparison for accuracy and spam precision, recall, and F1.",
+    "blob_sha": "43c2d4ea7a3c966eb40f6f74ad131ec5a901f9c8",
+    "treatment": "Original screenshot or result graphic, resized and converted to WebP without content changes."
+  },
+  {
+    "project": "expense-categorization",
+    "src": "/projects/expense-categorization.webp",
+    "source_url": "https://github.com/Abdullah-Javed-01/HisabDo-AI-ML-Bootcamp/blob/main/Day-13/outputs/screenshots/02_ai_prediction.png",
+    "description": "Expense categorization prototype showing a low-confidence suggestion and accept/correct controls.",
+    "blob_sha": "14a901489b9d9934af2ba327c9a6c153a583472c",
+    "treatment": "Original screenshot or result graphic, resized and converted to WebP without content changes."
+  }
+]

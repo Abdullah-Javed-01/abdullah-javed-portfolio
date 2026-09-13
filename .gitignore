@@ -1,0 +1,13 @@
+node_modules/
+.next/
+out/
+.env*
+!.env.example
+*.tsbuildinfo
+.DS_Store
+.sites-runtime/
+.vercel/
+coverage/
+preview/
+public/review.html
+public/preview.html

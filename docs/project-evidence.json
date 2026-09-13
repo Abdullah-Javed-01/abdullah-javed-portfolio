@@ -1,0 +1,590 @@
+{
+  "audit_date": "2026-09-12",
+  "method": "Read-only repository tree, README, implementation, result-file and asset inspection; project pipelines were not independently executed.",
+  "inventory_count": 21,
+  "github_project_count": 19,
+  "repositories": [
+    {
+      "repository": "Abdullah-Javed-01/KnowledgeVault-InnoViast",
+      "url": "https://github.com/Abdullah-Javed-01/KnowledgeVault-InnoViast",
+      "branch": "main",
+      "tree_sha": "699ade96820f7ffa981d1dfee09158e9f52bdc7e",
+      "files_inspected": [
+        {
+          "path": "README.md",
+          "blob_sha": "815218ecbcfa04aed8a7d68886008ad9d739dc8f",
+          "url": "https://github.com/Abdullah-Javed-01/KnowledgeVault-InnoViast/blob/main/README.md"
+        },
+        {
+          "path": "src/vector_store.py",
+          "blob_sha": "2a752e0bcbfbddd059a715b282a04144139fd850",
+          "url": "https://github.com/Abdullah-Javed-01/KnowledgeVault-InnoViast/blob/main/src/vector_store.py"
+        },
+        {
+          "path": "src/rag_chain.py",
+          "blob_sha": "6555ccf904b52ca3447ba63e4040405cd6bdf333",
+          "url": "https://github.com/Abdullah-Javed-01/KnowledgeVault-InnoViast/blob/main/src/rag_chain.py"
+        },
+        {
+          "path": "evaluation/results_week6_baseline.csv",
+          "blob_sha": "a061946b74051b865b9aa87f82914244e96686ce",
+          "url": "https://github.com/Abdullah-Javed-01/KnowledgeVault-InnoViast/blob/main/evaluation/results_week6_baseline.csv"
+        },
+        {
+          "path": "evaluation/results_week6_final.csv",
+          "blob_sha": "72630552dac806b470f2b476052d438566e06e40",
+          "url": "https://github.com/Abdullah-Javed-01/KnowledgeVault-InnoViast/blob/main/evaluation/results_week6_final.csv"
+        }
+      ]
+    },
+    {
+      "repository": "Abdullah-Javed-01/flyrank-capstone-metering-billing",
+      "url": "https://github.com/Abdullah-Javed-01/flyrank-capstone-metering-billing",
+      "branch": "main",
+      "tree_sha": "f27be679ca4b4f36656079d889258b92c7642fc6",
+      "files_inspected": [
+        {
+          "path": "README.md",
+          "blob_sha": "b58c89b73dc0b722104fb264d3edaefebf32a21a",
+          "url": "https://github.com/Abdullah-Javed-01/flyrank-capstone-metering-billing/blob/main/README.md"
+        },
+        {
+          "path": "app/services/meter_service.py",
+          "blob_sha": "51c273330a0836dad77819a269baaa7647ef1564",
+          "url": "https://github.com/Abdullah-Javed-01/flyrank-capstone-metering-billing/blob/main/app/services/meter_service.py"
+        },
+        {
+          "path": "app/services/quota_service.py",
+          "blob_sha": "15d65c0a4d903c8bd6877420b7697ee651c296a9",
+          "url": "https://github.com/Abdullah-Javed-01/flyrank-capstone-metering-billing/blob/main/app/services/quota_service.py"
+        },
+        {
+          "path": "app/services/billing_service.py",
+          "blob_sha": "fffe7edc7fdc2f57e6e5558275c9c0639e531208",
+          "url": "https://github.com/Abdullah-Javed-01/flyrank-capstone-metering-billing/blob/main/app/services/billing_service.py"
+        },
+        {
+          "path": "app/jobs/usage_audit_worker.py",
+          "blob_sha": "6f232318c097242412c5ca991652ca9a42541eb8",
+          "url": "https://github.com/Abdullah-Javed-01/flyrank-capstone-metering-billing/blob/main/app/jobs/usage_audit_worker.py"
+        },
+        {
+          "path": "app/api/routes/generate.py",
+          "blob_sha": "ccb7aed6889695a46b96fc7d4a81b4ce9bf4d734",
+          "url": "https://github.com/Abdullah-Javed-01/flyrank-capstone-metering-billing/blob/main/app/api/routes/generate.py"
+        }
+      ]
+    },
+    {
+      "repository": "Abdullah-Javed-01/AI-Talent-Review-Copilot",
+      "url": "https://github.com/Abdullah-Javed-01/AI-Talent-Review-Copilot",
+      "branch": "main",
+      "tree_sha": "80a5dd56f555d62f3f7e7f3b94e59b5c1b48e619",
+      "files_inspected": [
+        {
+          "path": "README.md",
+          "blob_sha": "2cadbbdaab8ae5288eb015e9fbb48c7814cdf16d",
+          "url": "https://github.com/Abdullah-Javed-01/AI-Talent-Review-Copilot/blob/main/README.md"
+        },
+        {
+          "path": "app/evidence_extractor.py",
+          "blob_sha": "54134a339200af9d6335976f5c0ff17bbdf6e847",
+          "url": "https://github.com/Abdullah-Javed-01/AI-Talent-Review-Copilot/blob/main/app/evidence_extractor.py"
+        },
+        {
+          "path": "app/role_score_engine.py",
+          "blob_sha": "c749fbf7280b4bdbb141ba2e2debef6aab53459c",
+          "url": "https://github.com/Abdullah-Javed-01/AI-Talent-Review-Copilot/blob/main/app/role_score_engine.py"
+        },
+        {
+          "path": "app/score_engine.py",
+          "blob_sha": "da7e1968b3e51d61381a8071a8d30d6ec4d7506e",
+          "url": "https://github.com/Abdullah-Javed-01/AI-Talent-Review-Copilot/blob/main/app/score_engine.py"
+        },
+        {
+          "path": "app/build_profiles.py",
+          "blob_sha": "c3f21e702d31fe442683a2dfe28c33796eed9c7d",
+          "url": "https://github.com/Abdullah-Javed-01/AI-Talent-Review-Copilot/blob/main/app/build_profiles.py"
+        }
+      ]
+    },
+    {
+      "repository": "Abdullah-Javed-01/ScamSleuth",
+      "url": "https://github.com/Abdullah-Javed-01/ScamSleuth",
+      "branch": "main",
+      "tree_sha": "ffbdb3ca097107f7436541fd545d43d17807ca16",
+      "files_inspected": [
+        {
+          "path": "README.md",
+          "blob_sha": "18d031d966e855cdb88eb4f11bbe168146a40eaa",
+          "url": "https://github.com/Abdullah-Javed-01/ScamSleuth/blob/main/README.md"
+        },
+        {
+          "path": "artifacts/scamsleuth_model_metadata.json",
+          "blob_sha": "757e0e725d6df7df102c2178f7df1faa8a7260b8",
+          "url": "https://github.com/Abdullah-Javed-01/ScamSleuth/blob/main/artifacts/scamsleuth_model_metadata.json"
+        },
+        {
+          "path": "artifacts/split_metadata.json",
+          "blob_sha": "24e192edfcd69e95b38af7215ffb0c2f86ff7182",
+          "url": "https://github.com/Abdullah-Javed-01/ScamSleuth/blob/main/artifacts/split_metadata.json"
+        },
+        {
+          "path": "reports/model_comparison_test.csv",
+          "blob_sha": "14af52e46e1d0b7ecc4f9dd8311aafec8f1e1df6",
+          "url": "https://github.com/Abdullah-Javed-01/ScamSleuth/blob/main/reports/model_comparison_test.csv"
+        },
+        {
+          "path": "models/train_final.py",
+          "blob_sha": "b1413fa3374b8e273940b1bb9868d880d003e2cc",
+          "url": "https://github.com/Abdullah-Javed-01/ScamSleuth/blob/main/models/train_final.py"
+        },
+        {
+          "path": "models/final_evaluation.py",
+          "blob_sha": "0271bf80fb8be6ef8fa2474c624c07a3764127f3",
+          "url": "https://github.com/Abdullah-Javed-01/ScamSleuth/blob/main/models/final_evaluation.py"
+        }
+      ]
+    },
+    {
+      "repository": "Abdullah-Javed-01/KHIZEX-Week5-CV-Edge-Deployment",
+      "url": "https://github.com/Abdullah-Javed-01/KHIZEX-Week5-CV-Edge-Deployment",
+      "branch": "main",
+      "tree_sha": "d8a8ba098b9ae55f6d9ebd367ab601fd8ba98c47",
+      "files_inspected": [
+        {
+          "path": "README.md",
+          "blob_sha": "d4bfe5a17c5de7892bf51c5272fe3a9b9b98fea2",
+          "url": "https://github.com/Abdullah-Javed-01/KHIZEX-Week5-CV-Edge-Deployment/blob/main/README.md"
+        },
+        {
+          "path": "src/pipeline.py",
+          "blob_sha": "fbc52ea572352bb5d4cba7d27f22283298c6c908",
+          "url": "https://github.com/Abdullah-Javed-01/KHIZEX-Week5-CV-Edge-Deployment/blob/main/src/pipeline.py"
+        },
+        {
+          "path": "results/metrics_summary.json",
+          "blob_sha": "03b7e772b8ba06f128a351149182f86972afdd6c",
+          "url": "https://github.com/Abdullah-Javed-01/KHIZEX-Week5-CV-Edge-Deployment/blob/main/results/metrics_summary.json"
+        },
+        {
+          "path": "ANALYSIS.md",
+          "blob_sha": "462d70786e20ae71547f239253b3039ae87b1653",
+          "url": "https://github.com/Abdullah-Javed-01/KHIZEX-Week5-CV-Edge-Deployment/blob/main/ANALYSIS.md"
+        }
+      ]
+    },
+    {
+      "repository": "Abdullah-Javed-01/KHIZEX-Week6-Document-Extraction",
+      "url": "https://github.com/Abdullah-Javed-01/KHIZEX-Week6-Document-Extraction",
+      "branch": "main",
+      "tree_sha": "626856ef5dd6b3a9ab33fd528d5abeb8f4f38636",
+      "files_inspected": [
+        {
+          "path": "README.md",
+          "blob_sha": "89de554a5db1db78fce0cc12be8fcb1bce2b1060",
+          "url": "https://github.com/Abdullah-Javed-01/KHIZEX-Week6-Document-Extraction/blob/main/README.md"
+        },
+        {
+          "path": "src/pipeline.py",
+          "blob_sha": "ca798bceaf77a75c1a5bcc7d613164c764ec0277",
+          "url": "https://github.com/Abdullah-Javed-01/KHIZEX-Week6-Document-Extraction/blob/main/src/pipeline.py"
+        },
+        {
+          "path": "results/metrics_summary.json",
+          "blob_sha": "f14b7380a8a4074879239c73a4b62b9ae14ea356",
+          "url": "https://github.com/Abdullah-Javed-01/KHIZEX-Week6-Document-Extraction/blob/main/results/metrics_summary.json"
+        },
+        {
+          "path": "ANALYSIS.md",
+          "blob_sha": "450126f48260f5e668a4da29663f5aa328a6c673",
+          "url": "https://github.com/Abdullah-Javed-01/KHIZEX-Week6-Document-Extraction/blob/main/ANALYSIS.md"
+        }
+      ]
+    },
+    {
+      "repository": "Abdullah-Javed-01/customer-churn-prediction-dashboard",
+      "url": "https://github.com/Abdullah-Javed-01/customer-churn-prediction-dashboard",
+      "branch": "main",
+      "tree_sha": "98e45870e4d50800a1f9513557a6810d05c4c6ca",
+      "files_inspected": [
+        {
+          "path": "README.md",
+          "blob_sha": "9865b5a0d107072db5dfe102e41cefbfbdc6f882",
+          "url": "https://github.com/Abdullah-Javed-01/customer-churn-prediction-dashboard/blob/main/README.md"
+        },
+        {
+          "path": "app.py",
+          "blob_sha": "a54b4fe364741a4a62c0c3ec3fd5d8e40d149432",
+          "url": "https://github.com/Abdullah-Javed-01/customer-churn-prediction-dashboard/blob/main/app.py"
+        },
+        {
+          "path": "churn_analysis.py",
+          "blob_sha": "2fb091ed48b4ea924539b53e3113943fadc174e4",
+          "url": "https://github.com/Abdullah-Javed-01/customer-churn-prediction-dashboard/blob/main/churn_analysis.py"
+        },
+        {
+          "path": "outputs/reports/model_results.txt",
+          "blob_sha": "d552f3ed6f1ff17b1161a70116bedf09ed9353d8",
+          "url": "https://github.com/Abdullah-Javed-01/customer-churn-prediction-dashboard/blob/main/outputs/reports/model_results.txt"
+        }
+      ]
+    },
+    {
+      "repository": "Abdullah-Javed-01/Smart-Public-Transport-Analytics-Dashboard",
+      "url": "https://github.com/Abdullah-Javed-01/Smart-Public-Transport-Analytics-Dashboard",
+      "branch": "main",
+      "tree_sha": "874cfff09f16ffbbd1ad69a9028ecb89bbe19325",
+      "files_inspected": [
+        {
+          "path": "README.md",
+          "blob_sha": "b30538b26d752ec6baeb10a339b23bd0e79ec801",
+          "url": "https://github.com/Abdullah-Javed-01/Smart-Public-Transport-Analytics-Dashboard/blob/main/README.md"
+        },
+        {
+          "path": "scripts/01_data_cleaning.py",
+          "blob_sha": "68a635d18e0cf1b31f4949cf1ffec8f82170013c",
+          "url": "https://github.com/Abdullah-Javed-01/Smart-Public-Transport-Analytics-Dashboard/blob/main/scripts/01_data_cleaning.py"
+        },
+        {
+          "path": "scripts/03_kpi_analysis.py",
+          "blob_sha": "d644a36530bce70630a4f6269d59245737895aaf",
+          "url": "https://github.com/Abdullah-Javed-01/Smart-Public-Transport-Analytics-Dashboard/blob/main/scripts/03_kpi_analysis.py"
+        },
+        {
+          "path": "scripts/04_prepare_dashboard_data.py",
+          "blob_sha": "898772182eb01d2d1ce9dba4460806bb1905e0c6",
+          "url": "https://github.com/Abdullah-Javed-01/Smart-Public-Transport-Analytics-Dashboard/blob/main/scripts/04_prepare_dashboard_data.py"
+        }
+      ]
+    },
+    {
+      "repository": "Abdullah-Javed-01/Brain-Tumor-Classification-Project",
+      "url": "https://github.com/Abdullah-Javed-01/Brain-Tumor-Classification-Project",
+      "branch": "main",
+      "tree_sha": "ef1cee0e1c75867836c4f6d0f74b11d0c5cfc21b",
+      "files_inspected": [
+        {
+          "path": "README.md",
+          "blob_sha": "61e9bccf02865a086574ee51466d5bbf2c07e3c1",
+          "url": "https://github.com/Abdullah-Javed-01/Brain-Tumor-Classification-Project/blob/main/README.md"
+        },
+        {
+          "path": "app.py",
+          "blob_sha": "409435cffcc21d3bc504438aa0020fbce94976c2",
+          "url": "https://github.com/Abdullah-Javed-01/Brain-Tumor-Classification-Project/blob/main/app.py"
+        },
+        {
+          "path": "train_model.py",
+          "blob_sha": "017641533dea1f9c3a8dc6f4c84a3e65c72e88b8",
+          "url": "https://github.com/Abdullah-Javed-01/Brain-Tumor-Classification-Project/blob/main/train_model.py"
+        }
+      ]
+    },
+    {
+      "repository": "Abdullah-Javed-01/ApplyWise-InnoViast",
+      "url": "https://github.com/Abdullah-Javed-01/ApplyWise-InnoViast",
+      "branch": "main",
+      "tree_sha": "baaf901536a878a8d2d96821714c4a08b1c2a13d",
+      "files_inspected": [
+        {
+          "path": "README.md",
+          "blob_sha": "778fdb57a38d1f18786e02d41a9f87f898b900d9",
+          "url": "https://github.com/Abdullah-Javed-01/ApplyWise-InnoViast/blob/main/README.md"
+        },
+        {
+          "path": "utils/groq_client.py",
+          "blob_sha": "686b3930121fae3283c2b97957291d755d17af54",
+          "url": "https://github.com/Abdullah-Javed-01/ApplyWise-InnoViast/blob/main/utils/groq_client.py"
+        },
+        {
+          "path": "utils/scoring.py",
+          "blob_sha": "0f4de7dec8e15606d04f9a913c58b5bf31edad27",
+          "url": "https://github.com/Abdullah-Javed-01/ApplyWise-InnoViast/blob/main/utils/scoring.py"
+        },
+        {
+          "path": "app.py",
+          "blob_sha": "a856fda4c8cb9f3fbc20cc20061e9b633f5adf63",
+          "url": "https://github.com/Abdullah-Javed-01/ApplyWise-InnoViast/blob/main/app.py"
+        },
+        {
+          "path": "KNOWN_LIMITATIONS.md",
+          "blob_sha": "171deb17b600e814e7f2bab29b684fbc5748c522",
+          "url": "https://github.com/Abdullah-Javed-01/ApplyWise-InnoViast/blob/main/KNOWN_LIMITATIONS.md"
+        }
+      ]
+    },
+    {
+      "repository": "Abdullah-Javed-01/PromptForge-InnoViast",
+      "url": "https://github.com/Abdullah-Javed-01/PromptForge-InnoViast",
+      "branch": "main",
+      "tree_sha": "bb6c38158db73060adaa14656acf6f9994a8e14b",
+      "files_inspected": [
+        {
+          "path": "README.md",
+          "blob_sha": "1bea103c3ad380ed662793e05128dc98436db607",
+          "url": "https://github.com/Abdullah-Javed-01/PromptForge-InnoViast/blob/main/PromptForge-InnoViast/README.md"
+        },
+        {
+          "path": "PromptForge-InnoViast/server/server.js",
+          "blob_sha": "8908c43979c9ff65203c295eec67e5fcec809060",
+          "url": "https://github.com/Abdullah-Javed-01/PromptForge-InnoViast/blob/main/PromptForge-InnoViast/server/server.js"
+        },
+        {
+          "path": "PromptForge-InnoViast/server/ollamaClient.js",
+          "blob_sha": "fa471d5f227b79d61e78d8f86895bda04835470d",
+          "url": "https://github.com/Abdullah-Javed-01/PromptForge-InnoViast/blob/main/PromptForge-InnoViast/server/ollamaClient.js"
+        },
+        {
+          "path": "PromptForge-InnoViast/src/components/PromptForm.jsx",
+          "blob_sha": "32a7fe0edcf92cb0e0e9e0368b84c92a3e519934",
+          "url": "https://github.com/Abdullah-Javed-01/PromptForge-InnoViast/blob/main/PromptForge-InnoViast/src/components/PromptForm.jsx"
+        }
+      ]
+    },
+    {
+      "repository": "Abdullah-Javed-01/StudentHelpdeskBot-InnoViast",
+      "url": "https://github.com/Abdullah-Javed-01/StudentHelpdeskBot-InnoViast",
+      "branch": "main",
+      "tree_sha": "abc74fd3de0be5f48100a8a45fefd0ddd77daa28",
+      "files_inspected": [
+        {
+          "path": "README.md",
+          "blob_sha": "4a6fe6a3fd2bca573646ca98352928b17f4c8d71",
+          "url": "https://github.com/Abdullah-Javed-01/StudentHelpdeskBot-InnoViast/blob/main/README.md"
+        },
+        {
+          "path": "app.py",
+          "blob_sha": "4b3412bfb10e6a92a513d400ba2012c6040e28f4",
+          "url": "https://github.com/Abdullah-Javed-01/StudentHelpdeskBot-InnoViast/blob/main/app.py"
+        },
+        {
+          "path": "chatbot.py",
+          "blob_sha": "f31756d2cd187276fcfec27c73103b355d8726e7",
+          "url": "https://github.com/Abdullah-Javed-01/StudentHelpdeskBot-InnoViast/blob/main/chatbot.py"
+        },
+        {
+          "path": "prompts.py",
+          "blob_sha": "94807103b5c6fe397d1f98bf33a86740239e5659",
+          "url": "https://github.com/Abdullah-Javed-01/StudentHelpdeskBot-InnoViast/blob/main/prompts.py"
+        }
+      ]
+    },
+    {
+      "repository": "Abdullah-Javed-01/ai-content-generation-studio",
+      "url": "https://github.com/Abdullah-Javed-01/ai-content-generation-studio",
+      "branch": "main",
+      "tree_sha": "e82ca094b2a91fb3336b9af0bbb41abb964a6b4c",
+      "files_inspected": [
+        {
+          "path": "README.md",
+          "blob_sha": "d197ac7708f4f7692bfc3ec16f8b6f6913528f1d",
+          "url": "https://github.com/Abdullah-Javed-01/ai-content-generation-studio/blob/main/README.md"
+        },
+        {
+          "path": "backend/server.js",
+          "blob_sha": "9db110fbd553d0ecbdf89be9e4bc9e9dbd7a7ffb",
+          "url": "https://github.com/Abdullah-Javed-01/ai-content-generation-studio/blob/main/backend/server.js"
+        },
+        {
+          "path": "frontend/src/App.jsx",
+          "blob_sha": "3e48bcd951257b59388e5c4c9bf5bbbdd74d7dfb",
+          "url": "https://github.com/Abdullah-Javed-01/ai-content-generation-studio/blob/main/frontend/src/App.jsx"
+        }
+      ]
+    },
+    {
+      "repository": "Abdullah-Javed-01/KHIZEX-Week2-DataPulse",
+      "url": "https://github.com/Abdullah-Javed-01/KHIZEX-Week2-DataPulse",
+      "branch": "main",
+      "tree_sha": "730e3fa38bc1c667b2f4a04456b04536fcae0385",
+      "files_inspected": [
+        {
+          "path": "README.md",
+          "blob_sha": "5d6488adc16d7993ba323132bd3defcca05e6a2b",
+          "url": "https://github.com/Abdullah-Javed-01/KHIZEX-Week2-DataPulse/blob/main/README.md"
+        },
+        {
+          "path": "run_pipeline.py",
+          "blob_sha": "1f6dde3b0ce0444e5ae254481d5300cf9a6f0605",
+          "url": "https://github.com/Abdullah-Javed-01/KHIZEX-Week2-DataPulse/blob/main/run_pipeline.py"
+        },
+        {
+          "path": "analysis/imputation.py",
+          "blob_sha": "bd3ca8874abc93bc3001abc86aaf7989f64a6c90",
+          "url": "https://github.com/Abdullah-Javed-01/KHIZEX-Week2-DataPulse/blob/main/analysis/imputation.py"
+        },
+        {
+          "path": "analysis/hypothesis_tests.py",
+          "blob_sha": "84d2b3e884e68676bbeba1f02832cf097cfcf624",
+          "url": "https://github.com/Abdullah-Javed-01/KHIZEX-Week2-DataPulse/blob/main/analysis/hypothesis_tests.py"
+        },
+        {
+          "path": "reports/insight_narrative.md",
+          "blob_sha": "f2af61eb3eb73ba226fcccd309988db2da9556af",
+          "url": "https://github.com/Abdullah-Javed-01/KHIZEX-Week2-DataPulse/blob/main/reports/insight_narrative.md"
+        }
+      ]
+    },
+    {
+      "repository": "Abdullah-Javed-01/KHIZEX-Week3-ChurnSignal",
+      "url": "https://github.com/Abdullah-Javed-01/KHIZEX-Week3-ChurnSignal",
+      "branch": "main",
+      "tree_sha": "28a2627b5280b258e2dc9a369be0103bcb8143a3",
+      "files_inspected": [
+        {
+          "path": "README.md",
+          "blob_sha": "6834499ac8125c564c8a3bea1fcd80aae41b6494",
+          "url": "https://github.com/Abdullah-Javed-01/KHIZEX-Week3-ChurnSignal/blob/main/README.md"
+        },
+        {
+          "path": "run_pipeline.py",
+          "blob_sha": "ae06764c5b6b9b058152d75eb3d883df6d940785",
+          "url": "https://github.com/Abdullah-Javed-01/KHIZEX-Week3-ChurnSignal/blob/main/run_pipeline.py"
+        },
+        {
+          "path": "evaluation/model_comparison.csv",
+          "blob_sha": "2a1eca33c53b7d2d18898bde247bb25b99b4871c",
+          "url": "https://github.com/Abdullah-Javed-01/KHIZEX-Week3-ChurnSignal/blob/main/evaluation/model_comparison.csv"
+        },
+        {
+          "path": "reports/insight_narrative.md",
+          "blob_sha": "efd4a98351e238a12ae9f9eb3b74de1767fd58ec",
+          "url": "https://github.com/Abdullah-Javed-01/KHIZEX-Week3-ChurnSignal/blob/main/reports/insight_narrative.md"
+        }
+      ]
+    },
+    {
+      "repository": "Abdullah-Javed-01/KHIZEX-Week4-CreditCard-Fraud-Detector",
+      "url": "https://github.com/Abdullah-Javed-01/KHIZEX-Week4-CreditCard-Fraud-Detector",
+      "branch": "main",
+      "tree_sha": "c9dedf266d2762a8f7cb85436e638f48ffb88299",
+      "files_inspected": [
+        {
+          "path": "README.md",
+          "blob_sha": "69a79a4a8e723b1dca65c461e445fcea5e91ea91",
+          "url": "https://github.com/Abdullah-Javed-01/KHIZEX-Week4-CreditCard-Fraud-Detector/blob/main/README.md"
+        },
+        {
+          "path": "run_analysis.py",
+          "blob_sha": "b0c00c2678a4ab438c7efd8369d9cebd3caf943d",
+          "url": "https://github.com/Abdullah-Javed-01/KHIZEX-Week4-CreditCard-Fraud-Detector/blob/main/run_analysis.py"
+        },
+        {
+          "path": "src/modeling.py",
+          "blob_sha": "40c71692f4c5c7fe7e6d3cba945053ba13e81cda",
+          "url": "https://github.com/Abdullah-Javed-01/KHIZEX-Week4-CreditCard-Fraud-Detector/blob/main/src/modeling.py"
+        },
+        {
+          "path": "results/metrics_summary.csv",
+          "blob_sha": "02d045c8841fcac29f01211e28d9affdfc1db501",
+          "url": "https://github.com/Abdullah-Javed-01/KHIZEX-Week4-CreditCard-Fraud-Detector/blob/main/results/metrics_summary.csv"
+        },
+        {
+          "path": "results/run_summary.json",
+          "blob_sha": "6b7b2ea584f81e96c69e0d483a3462474d636386",
+          "url": "https://github.com/Abdullah-Javed-01/KHIZEX-Week4-CreditCard-Fraud-Detector/blob/main/results/run_summary.json"
+        }
+      ]
+    },
+    {
+      "repository": "Abdullah-Javed-01/retail-store-sales-analysis",
+      "url": "https://github.com/Abdullah-Javed-01/retail-store-sales-analysis",
+      "branch": "main",
+      "tree_sha": "9f41992a6ba2649d3d508d0f21c8e6f296d396b1",
+      "files_inspected": [
+        {
+          "path": "README.md",
+          "blob_sha": "59469ff217cc25a56b945c32696b7d197a84ad4b",
+          "url": "https://github.com/Abdullah-Javed-01/retail-store-sales-analysis/blob/main/README.md"
+        },
+        {
+          "path": "app.py",
+          "blob_sha": "223adf71013845e4cb7e89743fc4960f8e001c29",
+          "url": "https://github.com/Abdullah-Javed-01/retail-store-sales-analysis/blob/main/app.py"
+        },
+        {
+          "path": "retail_sales_analysis.py",
+          "blob_sha": "a570f5f61fe9ee5e4ae533fb1a9cea8fbe87287d",
+          "url": "https://github.com/Abdullah-Javed-01/retail-store-sales-analysis/blob/main/retail_sales_analysis.py"
+        },
+        {
+          "path": "output/project_summary.csv",
+          "blob_sha": "b293b1ea511d939ffa81cd42a1af602e5c3e4995",
+          "url": "https://github.com/Abdullah-Javed-01/retail-store-sales-analysis/blob/main/output/project_summary.csv"
+        }
+      ]
+    },
+    {
+      "repository": "Abdullah-Javed-01/Spam-Message-Detector",
+      "url": "https://github.com/Abdullah-Javed-01/Spam-Message-Detector",
+      "branch": "main",
+      "tree_sha": "9afc9623a4c9c80daf19187c1a46ff74dfff6d2c",
+      "files_inspected": [
+        {
+          "path": "README.md",
+          "blob_sha": "13a4b9f5b8f54ffb1b8c88135547ede11feab299",
+          "url": "https://github.com/Abdullah-Javed-01/Spam-Message-Detector/blob/main/README.md"
+        },
+        {
+          "path": "train_models.py",
+          "blob_sha": "628ea449fc7e750a1836f71f9b6411e398a2a17f",
+          "url": "https://github.com/Abdullah-Javed-01/Spam-Message-Detector/blob/main/train_models.py"
+        },
+        {
+          "path": "app.py",
+          "blob_sha": "f816b13d8582ec893afde77b8b5d40f65258c6af",
+          "url": "https://github.com/Abdullah-Javed-01/Spam-Message-Detector/blob/main/app.py"
+        },
+        {
+          "path": "outputs/model_comparison.csv",
+          "blob_sha": "536f9d5002d6c5e837bf971a8eaa869a88ea0fff",
+          "url": "https://github.com/Abdullah-Javed-01/Spam-Message-Detector/blob/main/outputs/model_comparison.csv"
+        }
+      ]
+    },
+    {
+      "repository": "Abdullah-Javed-01/HisabDo-AI-ML-Bootcamp",
+      "url": "https://github.com/Abdullah-Javed-01/HisabDo-AI-ML-Bootcamp",
+      "branch": "main",
+      "tree_sha": "3516f0e44d44949578b6064ea7c90b45b6a06d7a",
+      "files_inspected": [
+        {
+          "path": "README.md",
+          "blob_sha": "dfaa685fd4c9962c129460facd923a52ceca21f6",
+          "url": "https://github.com/Abdullah-Javed-01/HisabDo-AI-ML-Bootcamp/blob/main/README.md"
+        },
+        {
+          "path": "Day-09/train_model.py",
+          "blob_sha": "6b78567ef13356f12ded27e3c90d2e602ae3c517",
+          "url": "https://github.com/Abdullah-Javed-01/HisabDo-AI-ML-Bootcamp/blob/main/Day-09/train_model.py"
+        },
+        {
+          "path": "Day-09/outputs/classification_report.txt",
+          "blob_sha": "c8e04d3ca4b8b488402e9b4f7193df64711b83dc",
+          "url": "https://github.com/Abdullah-Javed-01/HisabDo-AI-ML-Bootcamp/blob/main/Day-09/outputs/classification_report.txt"
+        },
+        {
+          "path": "Day-13/api/services/prediction_service.py",
+          "blob_sha": "19b55dab19aeabae92438eabd016b8cb1bf8d46a",
+          "url": "https://github.com/Abdullah-Javed-01/HisabDo-AI-ML-Bootcamp/blob/main/Day-13/api/services/prediction_service.py"
+        },
+        {
+          "path": "Day-13/prototype/app.py",
+          "blob_sha": "5bbc84bef24b5f3091ba3ce1bb581669b62efe39",
+          "url": "https://github.com/Abdullah-Javed-01/HisabDo-AI-ML-Bootcamp/blob/main/Day-13/prototype/app.py"
+        },
+        {
+          "path": "Day-13/README.md",
+          "blob_sha": "cd0c914fcd9d6b32cad6db66e20882471ddc8221",
+          "url": "https://github.com/Abdullah-Javed-01/HisabDo-AI-ML-Bootcamp/blob/main/Day-13/README.md"
+        },
+        {
+          "path": "Day-12/technical_documentation.md",
+          "blob_sha": "984d9f88eae32bb6a5c76a423631963d72428831",
+          "url": "https://github.com/Abdullah-Javed-01/HisabDo-AI-ML-Bootcamp/blob/main/Day-12/technical_documentation.md"
+        }
+      ]
+    }
+  ]
+}

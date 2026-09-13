@@ -1,0 +1,1 @@
+export const themeScript = `(function(){var t='system';try{t=localStorage.getItem('aj-portfolio-theme')||'system'}catch(e){}document.documentElement.dataset.theme=t==='dark'||t==='light'?t:matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'})();`;
