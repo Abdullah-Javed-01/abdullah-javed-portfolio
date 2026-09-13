@@ -584,6 +584,17 @@ export const projects: Project[] = [
     ],
     "discipline": "Robotics · Embedded Systems",
     "visual": "robot",
+
+    "image": {
+      "src": "/projects/thor.jpeg",
+      "alt": "THOR, the Bluetooth-controlled sumo combat robot built for competition."
+    },
+    "video": {
+      "src": "/projects/thor.mp4",
+      "poster": "/projects/thor.jpeg",
+      "caption": "THOR competing in the Sumo War category at Taakra 2025."
+    },
+
     "description": "A solo-designed, Bluetooth-controlled robot built for sumo-style combat competitions.",
     "context": "Independently design and build a competition robot, from assembly and wiring to programming and operation.",
     "highlights": [
@@ -1225,7 +1236,11 @@ export const awards = [
     "year": "2025",
     "place": "Runner-Up",
     "title": "Sumo War · Taakra 2025",
-    "description": "Competed with THOR, a Bluetooth-controlled combat robot I independently designed, assembled, wired, programmed, and operated."
+    "description": "Competed with THOR, a Bluetooth-controlled combat robot I independently designed, assembled, wired, programmed, and operated.",
+    "image": {
+      "src": "/projects/thor-award.jpeg",
+      "alt": "Runner-Up award from the Sumo War category at Taakra 2025."
+    }
   },
   {
     "year": "2024",

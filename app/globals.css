@@ -296,13 +296,15 @@ dialog::backdrop { background: #000a; backdrop-filter: blur(4px); }
 .recognition-org { color: var(--accent); font-size: .8125rem; margin-bottom: 9px; }
 .recognition-list h4 { font-size: .875rem; line-height: 1.5; font-weight: 500; }
 .recognition-list article > p:last-child { color: var(--muted); font-size: .8125rem; margin-top: 9px; }
-.awards-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 25px; }
+.awards-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 25px; align-items: start; }
 .award { border: 1px solid var(--border); border-radius: 7px; padding: 30px; background: var(--surface); }
 .award-top { display: flex; justify-content: space-between; align-items: center; }
 .award-top > span { font-size: .75rem; }
 .award-place { font-size: 1.7rem; font-weight: 550; letter-spacing: -.04em; margin-top: 27px; }
 .award h3 { font-size: 1rem; font-weight: 500; margin-top: 6px; }
 .award > p:last-child { margin-top: 17px; color: var(--muted); font-size: .875rem; max-width: 450px; }
+.award-image-wrap { margin: -30px -30px 26px; border-bottom: 1px solid var(--border); background: var(--tonal); overflow: hidden; border-radius: 7px 7px 0 0; }
+.award-image { display: block; width: 100%; height: 280px; object-fit: contain; background: var(--tonal); }
 .contact-section { padding-block: 104px; border-top: 1px solid var(--border); }
 .contact-layout { display: grid; grid-template-columns: 1.4fr 1fr; gap: 60px; align-items: center; margin-top: 25px; }
 .contact-layout h2 { font-size: clamp(2.2rem, 4.2vw, 3.75rem); font-weight: 550; letter-spacing: -.05em; line-height: 1.1; }
@@ -439,6 +441,8 @@ dialog::backdrop { background: #000a; backdrop-filter: blur(4px); }
   .recognition-list { gap: 26px; }
   .awards-grid { grid-template-columns: 1fr; gap: 20px; }
   .award { padding: 25px; }
+  .award-image-wrap { margin: -25px -25px 22px; }
+  .award-image { height: 240px; }
   .contact-section { padding-block: 66px; }
   .contact-layout { grid-template-columns: 1fr; gap: 35px; }
   .contact-layout h2 { font-size: 2.7rem; }
